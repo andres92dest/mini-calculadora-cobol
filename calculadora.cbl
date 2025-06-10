@@ -1,6 +1,6 @@
       ******************************************************************
-      * Author:
-      * Date:
+      * Author: Andres Davvid Mejia Zarza
+      * Date: 10-Jun-202
       * Purpose:
       * Tectonics: cobc
       ******************************************************************
@@ -20,6 +20,8 @@
            INICIO.
                DISPLAY "Para salir introduce 'salir' en la consola.".
                DISPLAY "para multiplicar pulsa 'INTRO'.".
+               DISPLAY "Para sumar dos numeros ingrese 'SUMA'".
+               DISPLAY "Para restar dos numeros ingrese 'RESTA'".
                ACCEPT SALIDA.
 
                IF SALIDA = "salir"
